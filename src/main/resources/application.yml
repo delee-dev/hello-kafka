@@ -1,1 +1,9 @@
-spring.application.name=hello-kafka
+spring:
+  application:
+    name: hello-kafka
+  kafka:
+    producer:
+      bootstrap-servers: http://localhost:9094
+    consumer:
+      bootstrap-servers: http://localhost:9094
+
